@@ -47,7 +47,7 @@
       template:
         src:  ../templates/java_home.sh.j2
         dest: /etc/profile.d/java_home.sh
-        mode: "a+x"
+        mode: 0755
 
   when: java_set_javahome
 
